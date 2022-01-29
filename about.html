@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ZauRays Solar</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="product.html">PRODUCTS</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav> 
+		<h1>About Us</h1>
+
+</section>
+
+
+<!-- about us content -->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>We are the expert of Solar Energy System</h1>
+			<p>Sample Text</p>
+			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="images/us.jpeg">
+		</div>
+	</div>
+</section>
+
+
+<!-- Footer----------- -->
+<section class="footer">
+
+	<p>Made with  <i class="fas fa-heart"></i>  by kwantum</p>
+
+</section>
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu() {
+		navLinks.style.right = "-200px"; 
+	}
+
+
+</script>
+
+</body>
+</html>
